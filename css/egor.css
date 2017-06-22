@@ -1,0 +1,260 @@
+/*
+@font-face {
+    font-family:'FuturaRegular';
+    src: url('../fonts/FuturaRegular.eot');
+    url('../fonts/FuturaRegular.woff') format('woff'),
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+font-family: 'FuturaRegular';
+src: url('../fonts/FuturaRegular.eot');
+src: url('../fonts/FuturaRegular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/FuturaRegular.woff') format('woff'),
+url('../fonts/FuturaRegular.ttf') format('truetype');
+url('fonts/buxtonsketch.svg#buxtonsketch') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+*/
+
+
+
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+}
+
+.logo {
+    background-image:url("/picture/logo.png");
+    height: 75px;
+    width: 255px;
+    margin: auto;
+}
+
+.head1 {
+    font-family: FuturaNewBold;
+    font-size: 48px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 133px;
+}
+.head2 {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.head3 {
+    font-family: FuturaNewBold, sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+.head4 {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 48px;
+    line-height: 43px;
+    margin-top: 81px;
+    margin-bottom: 39px;
+    color: black;
+
+}
+
+
+.text1 {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text1b {
+    font-family: FuturaNewBold, sans-serif;
+}
+
+.text2 {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    width: 480px;
+}
+
+
+
+.afterbottomtext {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 33px;
+}
+
+
+.btn-head {
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 18px;
+    height:54px;
+    width:302px;
+    background-color:#F8E600;
+    color: black;
+    border: none;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+}
+
+.btn-head:hover {
+    background-color: #E41E23;
+
+}
+
+
+.btn-footer {
+    font-family: FuturaNewBook, sans-serif;
+    height:54px;
+    width:302px;
+    background-color:black;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+}
+
+.btn-footer:hover {
+    background-color: #E41E23;
+
+}
+
+.blue {
+    background-color: #008FBB;
+    width: 330px;
+    height: 65px;
+    margin-left: 290px;
+    margin-top: 370px;
+    position: absolute;
+    display: flex;
+    padding: 10px 5px 15px 10px;
+}
+
+
+.yellow {
+    background-color: #F8E600;
+    width: 203px;
+    height: 125px;
+    position: absolute;
+    display: flex;
+    left: -135px;
+    padding: 10px 10px 15px 10px;
+
+}
+
+.red {
+    background-color: #E41E23;
+    width: 209px;
+    height: 105px;
+    position: absolute;
+    top:-82px;
+    display: flex;
+    padding: 10px 10px 15px 10px;
+}
+
+.black {
+    background-color: black;
+    width: 203px;
+    height: 85px;
+    position: absolute;
+    bottom: -42px;
+    display: flex;
+    padding: 10px 10px 15px 10px;
+}
+
+.foto1 {
+    background: url(/picture/maly-prosp.png);
+    height:417px;
+    width: 620px;
+
+}
+.foto2 {
+    margin-top: 58px;
+    background: url(/picture/estnui.png);
+    height:326px;
+    width: 485px;
+    margin-left: 132px;
+    position: relative;
+
+}
+.foto3 {
+
+    background: url(/picture/paricmaherskaya.png);
+    height:169px;
+    width: 300px;
+    position: relative;
+    margin-top: 82px;
+    margin-left: 20px;
+
+}
+
+.foto4 {
+
+    background: url(/picture/tsvetu.png);
+    height:433px;
+    width: 300px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.photogalery1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.photogalery-text {
+    margin: auto;
+
+    font-family: FuturaNewBook, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.GermanovichEgorphoto {
+    background: url(/picture/GermanovichEgor.png) no-repeat;
+    width: 489px;
+    height: 366px;
+    bottom: -14px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+.col-50 {
+    width: 50%;
+    position: relative;
+}
+
+.precontainer-form-photo {
+    display: flex;
+}
+
+.GermanovichEgorphoto-text {
+    font-family: FuturaNewBook, sans-serif;
+position: absolute;
+width: 209px;
+bottom: 110px;
+left: 80px;}
