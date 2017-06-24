@@ -1,4 +1,16 @@
 $( document ).ready(function() {
+
+    $('.zayvka').on('click', function(event) {
+        var target = $('.zayvka-target');
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 500);
+        }
+    });
+
+
     //hang on event of form with id=myform
     $("#myform").submit(function(e) {
 
