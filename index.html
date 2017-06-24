@@ -109,35 +109,35 @@
         <div class="precontainer-form-photo">
             <div class="col-50">
 
-        <form class="form-horizontal">
+        <form id="myform" class="form-horizontal">
             <div class="form-group">
                 <label for="square" class="col-md-3 control-label" style="text-align: left"> площадью </label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="square">
+                    <input name="square" type="text" class="form-control" id="square">
                 </div>
             </div>
             <div class="form-group">
-                <label for="adress" class="col-md-3 control-label" style="text-align: left">по адресу</label>
+                <label for="address" class="col-md-3 control-label" style="text-align: left">по адресу</label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="adress">
+                    <input name="address" type="text" class="form-control" id="address">
                 </div>
             </div>
             <div class="form-group" style="margin-bottom: 25px">
                 <label for="purpose" class="col-md-3 control-label" style="text-align: left"> назначения </label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="purpose">
+                    <input name="purpose" type="text" class="form-control" id="purpose">
                 </div>
             </div>
             <div class="form-group">
                 <label for="name" class="col-md-3 control-label" style="text-align: left"> Имя </label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="name">
+                    <input name="name" type="text" class="form-control" id="name">
                 </div>
             </div>
             <div class="form-group">
                 <label for="phone" class="col-md-3 control-label" style="text-align: left"> Телефон </label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="phone">
+                    <input name="phone" type="text" class="form-control" id="phone">
                 </div>
             </div>
             <button class="btn-footer">Оставить заявку</button>
@@ -158,4 +158,9 @@
 </div>
 
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<script src="scripts/app.js"></script>
+
 </html>
