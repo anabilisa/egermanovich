@@ -8,12 +8,9 @@ app.use(express.static('.'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
-// in latest body-parser use like below.
 app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(express.bodyParser());
 
 
-// POST method route
 app.post('/send', function (req, res) {
 
     var data = req.body;
