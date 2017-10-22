@@ -11,7 +11,9 @@
     "request": "^2.81.0"
   },
   "resolutions": {
-    "assert-plus": "1.0.0"
+    "assert-plus": "1.0.0",
+    "setprototypeof": "1.1.0",
+    "boom": "5.2.0"
   },
   "scripts": {
     "start": "yarn install --flat && node server.js"
